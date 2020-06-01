@@ -5,7 +5,9 @@
 }
 
 body {
+
     padding: 15px 7%;
+    font-family: 'Segoa UI', 'Tahoma', 'Geneva', 'Verana', sans-serif;
 }
 
 .parent {
@@ -22,15 +24,19 @@ body {
 
 .div2 {
     grid-area: 1 / 2 / 2 / 3;
+    margin: 25px auto;
 }
 
 label {
 
     padding-right: 15px;
     width: 20%;
+    font: 1em sans-serif;
+    font-weight: 500;
 }
 
 input[type=text],
+input[type=number],
 textarea {
     border-top: 1px solid #ccc;
     border-left: 1px solid #ccc;
@@ -46,10 +52,60 @@ input {
     width: 20%;
 }
 
+span {
+    margin: 0 7px;
+}
+
+.duration input {
+    width: 5%;
+    margin-right: 5px;
+}
+
 .selectItem select {
     width: 40%;
 }
 
 .all {
     display: flex;
+    margin: 18px;
 }
+
+.btn button {
+    display: inline-flex;
+    margin-top: 15px;
+    margin-left: 150px;
+    padding: 10px 1.25em;
+    cursor: pointer;
+}
+
+.btn1 {
+    text-align: center;
+    background: #3358DF;
+    color: #fff;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.btn2 {
+    text-align: center;
+    background: #fff;
+    color: #3358DF;
+    border: 1px solid;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+i {
+    text-shadow: 2px 4px 6px wheat;
+}
+
+.far {
+    font-size: 100px;
+}
+
+/* button:hover {
+    background: #29bde7;
+    outline: 0;
+    transition: background-color 2s ease-out;
+} */

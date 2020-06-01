@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>createauction</title>
     <link rel="stylesheet" href="createauction.css">
+    <script src="https://kit.fontawesome.com/4efdd7cbeb.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -18,7 +19,12 @@
     <form class="grid-form  parent">
 
         <div class="div2">
+
+            <i class="far fa-image"></i><br>
+
             <input type="file" name="fileToUpload" id="fileToUpload">
+
+            <p>Upload photos of Items you are listing</p>
         </div>
 
         <div class="div1">
@@ -66,8 +72,23 @@
                 </select>
                 <span>?</span>
             </div>
-            <button type="submit">REVIEW & SAVE AUCTION</button>
-            <button type="submit">CANCEL</button>
+            <div class="duration all">
+                <label for="duration">Duration:</label>
+                <input type="number" name="day" id="day" placeholder="5"><span>Day</span>
+                <input type="number" name="Hour" id="Hour" placeholder="5"><span>Hour</span>
+                <input type="number" name="Min" id="Min" placeholder="5"><span>Min</span>
+            </div>
+
+            <div class="btn">
+
+                <button type="submit" class="btn1">REVIEW & SAVE AUCTION</button>
+
+
+                <button type="submit" class="btn2">CANCEL</button>
+
+            </div>
+
+
         </div>
 
 

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>createauction</title>
+    <link rel="stylesheet" href="createauction.css">
+</head>
+
+<body>
+
+    <header>
+        <h2>Create Auction</h2>
+    </header>
+
+
+    <form class="grid-form  parent">
+
+        <div class="div2">
+            <input type="file" name="fileToUpload" id="fileToUpload">
+        </div>
+
+        <div class="div1">
+            <div class="inputName all">
+                <label for="inputName">Auction Title:</label>
+                <textarea rows="2" id="inputName" placeholder="Set the title of your Auction"></textarea>
+            </div>
+
+            <div class="selectItem all">
+                <label for="selectItems">Item catogory:</label>
+                <select name="selectItems" id="selectItems">
+                    <option value="select">select your category</option>
+                    <option value="volvo">Furniture</option>
+                    <option value="saab">Phones</option>
+                    <option value="mercedes">Laptops</option>
+                    <option value="audi">Cars</option>
+                </select>
+            </div>
+
+
+
+            <div class="inputDesc all">
+                <label for="inputDesc">Discription:</label>
+                <textarea rows="3" id="inputName"
+                    placeholder="Provide a short discription of the item you are listing"></textarea>
+            </div>
+            <div class="reserved all">
+                <label for="reserved">Reserved Price:</label>
+                <input type="text" id="reserved" placeholder="10000">
+                <select name="cars" id="cars">
+                    <option value="volvo">$</option>
+                    <option value="saab">#</option>
+                    <option value="mercedes">&</option>
+                </select>
+                <span>?</span>
+            </div>
+
+            <div class="post all">
+                <label for="postage-cost">Postage Cost:</label>
+                <input type="text" id="postage" placeholder="10000">
+                <select name="postage-cost" id="cost">
+                    <option value="volvo">$</option>
+                    <option value="saab">#</option>
+                    <option value="mercedes">&</option>
+                </select>
+                <span>?</span>
+            </div>
+            <button type="submit">REVIEW & SAVE AUCTION</button>
+            <button type="submit">CANCEL</button>
+        </div>
+
+
+
+    </form>
+
+</body>
+
+</html>
